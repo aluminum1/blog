@@ -42,7 +42,7 @@ Is there a cleaner way to do this?
 
 Consider the following code:
 
-```
+```javascript
 // Inside Rabbit.js
 function speak(line) {
   console.log(`The ${this.myType} rabbit indeed says '${line}'`)
